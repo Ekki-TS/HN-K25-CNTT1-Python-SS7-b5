@@ -25,8 +25,7 @@ while True:
         products = raw_batch.split(";")
         success_count = 0
         total_count = 0
-        # OUTPUT: In tiêu đề báo cáo
-        print("\n===== BÁO CÁO KIỂM KÊ =====")
+        # OUTPUT: In báo cáo
         print(f"{'MÃ SP':<10} {'XUẤT XỨ':<10} {'NĂM SX':<10} {'SERIAL':<10} {'TRẠNG THÁI'}")
         for product in products:
             clean_product = product.strip().upper()
